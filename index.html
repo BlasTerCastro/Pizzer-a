@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Pizza BlasTer</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/source/jquery.fancybox.css" media="screen">
+	<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.pack.js"></script>
+</head>
+<body>
+	<header id="cabeza" class="Header">
+		<figure id="logo">
+			<img class="Header-image" src="images/pizza-slice-logo.jpg">
+		</figure>
+		<h1>Pizza BlasTer</h1>
+		<p>El mejor lugar para comer pizza.</p>
+	</header>
+	<nav class="MainMenu" >
+			<ul class="MainMenu_list">
+				<li><a href="file:///Users/israel/Desktop/Pizza%20BlasTer/index.html">Inicio</a></li>
+				<li><a href="file:///Users/israel/Desktop/Pizza%20BlasTer/menu.html">Menú</a></li>
+				<li><a href="file:///Users/israel/Desktop/Pizza%20BlasTer/pizzeria.html">Pizzería</a></li>
+				<li><a href="file:///Users/israel/Desktop/Pizza%20BlasTer/contactanos.html">Contactanos</a></li>
+			</ul>
+		</nav>
+	<section class="contenido">
+		<h2 class="Titulo">Pizzas y Hamburguers</h2>
+		<div class="Body">
+			<article class="Body-item item">
+				<a href="images/hamb-papas.jpg" rel="same-gallery" class="fancybox"><img class="Body-image" src="images/hamb-papas.jpg"></a>
+				<figcaption class="Body-description">
+					<p><strong>5$</strong> Precio</p>
+				</figcaption>
+			</article>
+			<article class="Body-item item">
+				<a href="images/pizza-pepperoni.jpg" rel="same-gallery" class="fancybox"><img class="Body-image" src="images/pizza-pepperoni.jpg"></a>
+				<figcaption class="Body-description">
+					<p><strong>5$</strong> Precio</p>
+				</figcaption>
+			</article>
+			<article class="Body-item item">
+				<a href="images/pizza-de-maiz.jpg" rel="same-gallery" class="fancybox"><img class="Body-image" src="images/pizza-de-maiz.jpg"></a>
+				<figcaption class="Body-description">
+					<p><strong>4$</strong> Precio</p>
+				</figcaption>
+			</article>
+		</div>
+	</section>
+	<section class="contenido">
+		<h2 class="Titulo">Otros</h2>
+		<div>
+			<article class="Body-item item">
+				<a href="images/hot-dogs2.jpg" rel="same-gallery" class="fancybox"><img class="Body-image" src="images/hot-dogs2.jpg" ></a>
+				<figcaption class="Body-description">
+					<p><strong>1.5$</strong> Precio</p>
+				</figcaption>
+			</article>
+			<article class="Body-item item">
+				<a href="images/hamb-tocino.jpg" rel="same-gallery" class="fancybox"><img class="Body-image " src="images/hamb-tocino.jpg"></a>
+				<figcaption class="Body-description">
+					<p><strong>3$</strong> Precio</p>
+				</figcaption>
+			</article>
+			<article class="Body-item item">
+				<a href="images/hot-dogs.jpg" rel="same-gallery" class="fancybox"><img class="Body-image" src="images/hot-dogs.jpg"></a>
+				<figcaption class="Body-description">
+					<p><strong>12$</strong> Precio</p>
+				</figcaption>
+		</div>
+	</section>
+		<footer class="Footer">
+			<div id="general">
+				<h3 class="Titulo">Contactanos</h3>
+				<div id="izquierda">
+					<p class="Footer-left">Tienes alguna idea para el negocio o quieres trabajar con nosotros, o quieres darnos una idea para un nuevo sabor de pizza, contactanos y envianos tu idea y la recibiuremos.</p>
+				</div>
+				<div id="centro">
+					<form class="Footer-form2">
+						<input class="Footer-formInput" type="name" placeholder="Nombre">
+						<input class="Footer-formInput" type="email" placeholder="Email">
+						<textarea class="Footer-textarea" type="text" placeholder="Asunto"></textarea>
+						<input class="Footer-formInput Buttom" type="submit" value="Enviar ">
+					</form>
+				</div>
+				<div id="derecha">
+							<iframe class="Mapa-gps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60497.7145820266!2d-68.74959389632535!3d18.614249205016744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea8b9e1e92502e9%3A0x2cceef243fdd7efa!2sDuarte%2C+Hig%C3%BCey+23000%2C+Rep%C3%BAblica+Dominicana!5e0!3m2!1ses!2ses!4v1450122812432" width="372" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>	
+		</footer>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".fancybox").fancybox();
+		});
+	</script>
+</body>
+</html>

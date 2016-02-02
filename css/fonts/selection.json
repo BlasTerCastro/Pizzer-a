@@ -1,0 +1,138 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M512 20.48c-271.514 0-491.571 220.058-491.571 491.52 0 271.514 220.058 491.571 491.571 491.571 271.411 0 491.52-220.058 491.52-491.571 0-271.462-220.109-491.52-491.52-491.52zM511.949 901.12c-214.886 0-389.12-174.182-389.12-389.12s174.182-389.12 389.12-389.12 389.171 174.234 389.171 389.12-174.285 389.12-389.171 389.12zM512 409.6h-204.8v204.8h204.8v128l230.4-230.4-230.4-230.4v128z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"arrow-with-circle-right"
+				],
+				"grid": 0
+			},
+			"attrs": [],
+			"properties": {
+				"order": 1,
+				"id": 1,
+				"prevSize": 20,
+				"code": 59650,
+				"name": "f-right"
+			},
+			"setIdx": 0,
+			"setId": 1,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M512 20.48c-271.514 0-491.571 220.058-491.571 491.52 0 271.514 220.058 491.571 491.571 491.571 271.411 0 491.52-220.058 491.52-491.571 0-271.462-220.109-491.52-491.52-491.52zM511.949 901.12c-214.886 0-389.12-174.182-389.12-389.12s174.182-389.12 389.12-389.12 389.171 174.234 389.171 389.12-174.285 389.12-389.171 389.12zM512 281.6l-230.4 230.4 230.4 230.4v-128h204.8v-204.8h-204.8v-128z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"arrow-with-circle-left"
+				],
+				"grid": 0
+			},
+			"attrs": [],
+			"properties": {
+				"order": 2,
+				"id": 0,
+				"prevSize": 20,
+				"code": 59651,
+				"name": "f-left"
+			},
+			"setIdx": 0,
+			"setId": 1,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M192 128l640 384-640 384z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"play",
+					"player"
+				],
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 1,
+				"prevSize": 16,
+				"ligatures": "play3, player8",
+				"name": "play3",
+				"id": 285,
+				"code": 59648
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 284
+		},
+		{
+			"icon": {
+				"paths": [
+					"M128 128h320v768h-320zM576 128h320v768h-320z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"pause",
+					"player"
+				],
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 2,
+				"prevSize": 16,
+				"ligatures": "pause2, player9",
+				"name": "pause",
+				"id": 286,
+				"code": 59649
+			},
+			"setIdx": 1,
+			"setId": 0,
+			"iconIdx": 285
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"embed": false
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215,
+			"classSelector": ".icon"
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16
+	}
+}

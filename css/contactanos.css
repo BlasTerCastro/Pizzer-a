@@ -1,0 +1,19 @@
+footer h1{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 3em;
+	padding: 0 0 0.5em 0;
+	font-weight: normal;
+	margin: 0.2em 70px 0 0;
+	text-align: center;
+}
+
+footer p{
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+	color: white;
+	font-weight: normal;
+	margin: 0.2em 70px 0 0;
+	padding: 0;
+	text-align: center;
+}
